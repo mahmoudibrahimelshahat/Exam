@@ -10,6 +10,6 @@ function logout() {
     deleteCookie("Email");
     deleteCookie("password");
 
-    window.location.replace("register.html")
+    window.location.replace("index.html")
 
 }
