@@ -1,0 +1,30 @@
+.password,.email{
+    position: relative;
+  }
+  .password i{
+    position: absolute;
+    top: 38px;
+    right: 8px;
+  }
+  .email i{
+    position: absolute;
+    top: 39px;
+    left: 9px;
+  }
+  .all{
+      margin-top: 167px;
+  }
+  #btnlogin{
+      margin-top: 10px;
+  }
+  @media screen and (max-width:1023px) {
+      .all{
+          margin-top: 0;
+      }
+  }
+
+  @media  (min-width:1024px) and (max-width:1439px){
+      .all{
+          margin-top: 35px;
+      }
+  }

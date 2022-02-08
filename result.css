@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e6e0e0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+.navbar-light .navbar-brand{
+    color: #fff !important;
+    margin-left: 60px;
+}
+.bg-light{
+    background-color:#033B4A !important;
+    padding: 20px 0;
+}
+#inside{
+    width: 269px;
+    border: 1px solid;
+    padding: 20px;
+    margin: auto auto;
+    background-color: #033B4A;
+    color: #fff;
+}
+#theRes{
+    display: flex;
+    height: 88vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    margin-right: 30px;
+    border: 1px solid red;
+    background: red;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

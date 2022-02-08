@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Lobster&display=swap');
+img{
+  width: 100%;
+}
+.container-fluid{
+  margin-top: 40px;
+}
+input{
+  width: 100%;
+  padding: 10px 33px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.all{
+  margin-top: 75px;
+  padding: 15px 29px;
+  box-shadow: 1px 10px 23px -8px rgba(226, 226, 226, 0.83);
+  -webkit-box-shadow: 1px 10px 23px -8px rgba(226, 226, 226, 0.83);
+  -moz-box-shadow: 1px 10px 23px -8px rgba(226, 226, 226, 0.83);
+}
+.d1{
+  margin-bottom: 10px;
+}
+h1{
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+}
+span{
+  color: red;
+}
+button {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	border: none;
+	font-family: 'Comfortaa', cursive;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 4px;
+	/* box-shadow: inset 0px 3px 5px rgba(255,255,255,0.5), 0px 0px 10px rgba(0,0,0,0.15); */
+	background: #037999;
+/* background: linear-gradient(45deg, rgba(2,0,36,0) 5%, rgba(255,255,255,.5) 6%, rgba(255,255,255,0) 9%, #3E5DAF 10%, rgba(255,255,255,0) 17%, rgba(255,255,255,.5) 19%, rgba(255,255,255,0) 21%); */
+	background-size: 150%;
+	background-position: right;
+	transition: 1s;
+}
+
+button:hover {
+	background-position: left;
+	color: black;
+/*	box-shadow: inset 0px 3px 5px rgba(255,255,255,1), 0px 0px 10px rgba(0,0,0,0.25); */
+}
+
+button:focus {
+	outline: none;
+}
+
+.password1 ,.password2{
+  position: relative;
+}
+.password1 i , .password2 i{
+  position: absolute;
+  top: 14px;
+  right: 8px;
+}
+
+.firstname , .lastname {
+  position: relative;
+}
+.firstname i , .lastname i{
+  position: absolute;
+  top: 15px;
+  left: 9px;
+}
+.email {
+  position: relative;
+}
+.email i{
+  position: absolute;
+  top: 15px;
+  left: 9px;
+}
+.password1 .lock1 , .password2 .lock2{
+  position: absolute;
+  top: 15px;
+  left: 9px;
+}
+
+@media screen and (max-width:767px) {
+  .all{
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width:1023px){
+  .all{
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+}
